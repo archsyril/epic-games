@@ -1,9 +1,9 @@
 import sdl2 as sdl
 import sdl2/ttf
-from ../epic_game import renderer
+from ../epic_games import renderer
 import graphics, color
 
-export ../epic_game.renderer
+export epic_games.renderer
 export graphics.destroy
 export color
 

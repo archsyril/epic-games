@@ -1,8 +1,8 @@
 import sdl2 as sdl
 import sdl2/image as img
-from ../epic_game import renderer
+from ../epic_games import renderer
 
-export ../epic_game.renderer
+export epic_games.renderer
 
 type
   Visual* = object of RootObj
